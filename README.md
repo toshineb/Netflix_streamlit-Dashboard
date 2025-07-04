@@ -1,67 +1,69 @@
-# 🎬 Netflix 2023 Content Strategy Dashboard – Streamlit App
+# 🎬 Netflix 2023 Content Strategy Dashboard – Python & Streamlit Project
 
-![Netflix Dashboard Preview](./Screenshot 2025-07-04 172422.png)
+![Netflix Dashboard Overview](./Screenshot%202025-07-04%20172422.png)
 
-## 📈 Project Overview
+## 🔍 Project Overview
 
-This interactive **Streamlit dashboard** analyzes and visualizes Netflix’s 2023 content release strategy based on **hours viewed, language trends, content type, and seasonal patterns**. Built as a full-stack data product by a professional **data analyst and data scientist**, this app combines storytelling, interactivity, and data-driven insights to showcase platform behavior and content strategy effectiveness.
+This interactive **Netflix 2023 Content Strategy Dashboard**, built using **Python, Streamlit, and Plotly**, explores patterns in content release, language trends, and viewership performance using real-world Netflix data. It empowers content strategists and data teams to make **evidence-based decisions** for streaming platform optimization.
 
-> 💼 Ideal for hiring managers, product analysts, and data science recruiters looking for real-world storytelling with impact.
-
----
-
-## 🔍 Key Features
-
-- 📊 **Content Type Analysis**  
-  Compare total hours viewed for **Shows vs Movies**, revealing where Netflix is truly winning attention.
-
-- 🌍 **Language & Localization Insights**  
-  Uncover global audience trends—English dominates, but Korean and non-English content is on the rise.
-
-- 🕒 **Time-Based Trends**  
-  Explore viewership across **months, days of the week, and seasons**, visualized beautifully with **Plotly**.
-
-- 🏆 **Top-Performing Titles**  
-  Drill into the highest-performing shows and movies, including language and release timing context.
-
-- 🎯 **Strategic Timing Patterns**  
-  Analyze weekly releases vs engagement, monthly surges, and holiday-linked releases to reveal **launch playbooks**.
-
-- 📁 **Clean Modular Tabs**  
-  9 fully structured Streamlit tabs with legends, tooltips, and responsive layout.
+As a **professional data analyst and data scientist**, I created this tool to demonstrate **insightful storytelling through data**, blending user-friendly visualizations with business-focused insights. The dashboard reveals **how content types, release timing, language, and global seasons** impact overall platform engagement.
 
 ---
 
-## 📸 Screenshots
+## 🧠 What This Dashboard Does
 
-### 🧭 Dashboard Navigation Tabs
-![Tabs](./dashboard_tabs.png)
+- 📊 **Compare Shows vs Movies** in total hours viewed
+- 🌍 **Analyze Language Performance**, highlighting global content trends
+- 🕒 **Uncover Weekly & Monthly Viewership Patterns**
+- 📅 **Identify Strategic Holiday Releases**
+- 🔄 **Evaluate Seasonal Impact** on viewing habits
+- 🧠 **Detect Patterns Behind Top-Performing Titles**
 
-### 📊 Viewership by Content Type
-![Content Type](./content_type.png)
-
-### 📅 Monthly Trends with Plotly
-![Monthly Trends](./monthly_trends.png)
-
-### 🎯 Holiday Release Strategy
-![Holiday Viewership](./holiday_releases.png)
+> **Insightful View**: ![](./Screenshot%202025-07-04%20172422.png)  
+> The image above demonstrates the dynamic nature of the dashboard with tabs like *Overview*, *Language & Genre*, *Seasonal Trends*, and *Top Titles*, enabling quick strategic evaluations.
 
 ---
 
-## 🛠 Built With
+## 🚀 Tech Stack
 
-- **Python 3.9+**
-- **Streamlit** – Web app framework for data science
-- **Pandas** – Data wrangling and transformation
-- **Plotly** – Interactive charting
-- **Jupyter / CSV** – For local exploration and model support
+| Tool       | Purpose                                 |
+|------------|-----------------------------------------|
+| **Python** | Backend data logic and transformation   |
+| **Pandas** | Data preprocessing & feature extraction |
+| **Plotly** | Interactive and responsive visualizations|
+| **Streamlit** | Web-based UI and deployment          |
 
 ---
 
-## 📁 How to Run Locally
+## 📁 File Structure
 
-```bash
-git clone https://github.com/yourusername/netflix-strategy-dashboard.git
-cd netflix-strategy-dashboard
-pip install -r requirements.txt
-streamlit run main.py
+- `main.py`: Core dashboard code with logic split across 9 analytical tabs
+- `netflix_content_2023.csv`: Source dataset (not included in repo for privacy)
+- `requirements.txt`: (optional) dependencies for local deployment
+- `📸 Screenshots`: Visuals showcasing dashboard UI
+
+---
+
+## 👩🏾‍💼 Ideal For
+
+- Data science portfolios and dashboards
+- Netflix or OTT strategy simulations
+- Business intelligence interview projects
+- Product/strategy teams analyzing content effectiveness
+
+---
+
+## 🔗 Connect with Me
+
+**Tosin Bello**  
+🎓 Data Analyst | Data Scientist | Dashboard Specialist  
+📍 Based in Nigeria
+
+- **LinkedIn**: [Tosin Bello](https://www.linkedin.com/in/tosinbellofin)  
+- **Email**: toshineb@email.com
+
+> 💬 Open to freelance and full-time roles in data analytics, product insights, and BI development. Reach out to collaborate or learn more!
+
+---
+
+⭐ If this project inspires you or adds value to your work, consider starring or sharing it.
