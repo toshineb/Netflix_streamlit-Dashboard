@@ -1,6 +1,6 @@
 # 🎬 Netflix 2023 Content Strategy Dashboard – Streamlit App
 
-![Netflix Dashboard Preview](./dashboard_preview.png)
+![Netflix Dashboard Preview](./Screenshot 2025-07-04 172422.png)
 
 ## 📈 Project Overview
 
